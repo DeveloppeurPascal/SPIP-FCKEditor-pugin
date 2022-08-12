@@ -1,0 +1,35 @@
+<plugin>
+	<nom>FCK Editor</nom>
+	<version>1.3</version>
+	<prefix>OS_fckeditor</prefix>
+	<etat>test</etat> <!-- caleurs possibles dev / test / stable -->
+	<description>
+		<multi>
+			[fr]Ce plugin remplace la barre de mise en forme de [SPIP->https://www.spip.net/] par l'&eacute;diteur WYSIWYG open source [FCK Editor 2.4.2->https://ckeditor.com/].
+			[en]This plugin replace [SPIP->https://www.spip.net/]'s toolbar by [FCK Editor 2.4.2->https://ckeditor.com/], that is WYSIWYG and open source.
+		</multi>
+	</description>
+	<lien>
+		[->https://olfsoftware.fr/]
+	</lien>
+	<auteur>
+		<multi>
+			[fr][Patrick Pr&eacute;martin->https://patrick.premartin.fr/]<br />
+&copy; [Olf Software->https://olfsoftware.fr/] 2007-2008<br />
+<br />
+Distribu&eacute; sous licence [GNU GPL->https://www.april.org/gnu/gpl_french.html].
+			[en][Patrick Pr&eacute;martin->https://patrick.premartin.fr/]<br />
+&copy; [Olf Software->https://olfsoftware.fr/] 2007-2008<br />
+<br />
+Distributed under [GNU GPL->https://www.gnu.org/licenses/gpl-3.0.html] licence.
+		</multi>
+	</auteur>
+	<include></include>
+	<fonctions></fonctions>
+	<options></options>
+	<pipeline>
+		<nom></nom>
+		<action></action>
+		<inclure></inclure>
+	</pipeline>
+</plugin>

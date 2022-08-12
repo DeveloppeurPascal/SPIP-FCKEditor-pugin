@@ -1,0 +1,14 @@
+<?php
+	// pour configurer le gestionnaire de fichiers
+	define ('_OSSPIPFCK_files_folder',"/userfiles/"); // le dossier doit contenir les sous-dossiers Image, Flash, File et Media / chemin d'acès relatif à la racine du site
+
+	// pour les champs TEXTAREA de l'administration de SPIP (articles, brèves, sites, ...)
+	define ('_OSSPIPFCK_admin_toolbar',"FCKPlugin1"); // nom de la toolbar utilisée sur les TEXTAREA standards
+	define ('_OSSPIPFCK_admin_width',"100%"); // largeur du champ de saisie
+	define ('_OSSPIPFCK_admin_height',"400"); // hauteur du champ de saisie (incluant la toolbar)
+
+	// pour les champs TEXTAREA des forums
+	define ('_OSSPIPFCK_forum_toolbar',"FCKPlugin2"); // nom de la toolbar utilisée sur les TEXTAREA des forums
+	define ('_OSSPIPFCK_forum_width',"100%"); // largeur du champ de saisie
+	define ('_OSSPIPFCK_forum_height',"400"); // hauteur du champ de saisie (incluant la toolbar)
+?>

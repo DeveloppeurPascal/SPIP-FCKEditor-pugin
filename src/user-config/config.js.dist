@@ -1,0 +1,23 @@
+FCKConfig.Plugins.Add( 'acronym', 'en,fr' ) ;
+FCKConfig.Plugins.Add( 'language', 'en,fr' ) ;
+FCKConfig.Plugins.Add( 'quote', 'en,fr' ) ;
+FCKConfig.Plugins.Add( 'abbreviation', 'en,fr' ) ;
+
+FCKConfig.ToolbarSets["FCKPlugin1"] = [
+	['Undo','Redo','-','SelectAll','RemoveFormat'],
+	['Bold','Italic','Underline','StrikeThrough','Acronym','Language','Abbreviation','Quote','-','Subscript','Superscript'],
+	['OrderedList','UnorderedList','-','Outdent','Indent'],
+	['JustifyLeft','JustifyCenter','JustifyRight','JustifyFull'],
+	['Link','Unlink'],
+	['Image','Table','Rule','Smiley','SpecialChar'],
+	['FontFormat'],
+	['TextColor','BGColor'],
+	['Source']
+] ;
+
+FCKConfig.ToolbarSets["FCKPlugin2"] = [
+	['Undo','Redo'],
+	['Bold','Italic','Underline','StrikeThrough','Acronym','Language','Abbreviation','Quote','-','Subscript','Superscript'],
+	['UnorderedList'],
+	['Link','Unlink'],['Smiley','SpecialChar']
+] ;
